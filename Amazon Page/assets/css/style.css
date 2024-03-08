@@ -1,0 +1,167 @@
+/* GENERALE */
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e6eaeb;
+}
+
+.bianco {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.centerText {
+  text-align: center;
+  /* width: 100%; */
+}
+
+/* FINE GENERALE */
+
+/* HEADER */
+header {
+  background-color: #222f3f;
+  height: 5%;
+}
+
+header img {
+  height: 5em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-top: 0.5em;
+}
+
+header nav {
+  background-color: #35475b;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+/* FINE HEADER */
+
+/* MAIN */
+main p {
+  font-weight: bold;
+}
+main .giftCard {
+  background-color: #f56600;
+  width: 95%;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+main .giftCard p {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+main div {
+  width: 95%;
+  margin: auto;
+}
+
+main .giftGuides {
+  background-image: url("../images/bg-image.png");
+  background-size: contain;
+  height: 100%;
+}
+
+main div h2 {
+  font-size: 2em;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+
+main div p {
+  padding-bottom: 4em;
+}
+
+main article {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+main .perfectGift {
+  background-color: white;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 0.5em;
+  width: 95%;
+}
+
+.perfectGift .card {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+}
+
+.perfectGift .card img {
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
+  box-shadow: 5px 5px 10px 2px lightgray;
+}
+
+.perfectGift a {
+  color: #3b8892;
+}
+
+.perfectGift p {
+  text-align: left;
+  margin-bottom: 2em;
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+.giftGame {
+  height: 30em;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.giftGame img {
+  width: 100%;
+  height: 100%;
+}
+
+.giftGame a {
+  color: #3b8892;
+}
+
+/* FINE MAIN */
+
+/* FOOTER */
+footer .backToTop {
+  background-color: #35475b;
+  padding: 1%;
+}
+
+footer {
+  background-color: #222f3f;
+}
+
+footer img {
+  height: 8em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* FINE FOOTER */
